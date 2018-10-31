@@ -1,5 +1,7 @@
 # kaggle-c-revenue
 Submission for Google Analytics Customer Revenue Prediction on Kaggle
+
+
 The data set contains some columns with JSON fields. The fields in JSON format must be converted into columns and added back into the dataframe before proceeding.
 The flatten_json funtion handles this issue. This function is applied to both train and test sets.
 The modified train and test sets are saved to disk as trainf.csv and testf.csv
